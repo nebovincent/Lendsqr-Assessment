@@ -1,0 +1,132 @@
+.main_wrapper {
+  display: flex;
+  height: 100vh;
+  font-family: "Avenir Next";
+  width: 100%;
+  .images_wrapper {
+    height: 100%;
+    width: 50%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 0px 69px 281.43px 67px;
+    .logo_img {
+      margin: 106px 0px 139px 30px;
+    }
+    .pabloSignInImage_img {
+      width: 600px;
+      height: 337.57px;
+    }
+  }
+  .main_form_wrapper {
+    height: 100%;
+    width: 50%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 157px 0px 100px;
+    h1 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 55px;
+      letter-spacing: -0.04em;
+      color: #213f7d;
+    }
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 27px;
+      color: #545f7d;
+      margin-bottom: 60px;
+    }
+    .form {
+      .form_group {
+        width: 100%;
+        height: 50px;
+        background: #ffffff;
+        border: 2px solid rgba(84, 95, 125, 0.15);
+        border-radius: 5px !important;
+        margin-bottom: 24px;
+        input {
+          width: 100%;
+          height: 100%;
+          border-radius: 5px !important;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
+          outline: none;
+          padding: 0px 16px 0px 16px;
+        }
+        input::placeholder {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 19px;
+          color: #545f7d;
+        }
+      }
+      .form_group_password {
+        display: flex;
+
+        input {
+          padding: 0px 0px 0px 16px;
+        }
+        div {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 16px;
+          text-align: center;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          color: #39cdcc;
+          display: flex;
+          align-items: center;
+          padding-right: 24px;
+        }
+      }
+      p {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #39cdcc;
+        margin: 0px 0px 30px 0px;
+      }
+      .submit_btn {
+        width: 100%;
+        height: 48px;
+
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #ffffff;
+        background: #39cdcc;
+        border-radius: 8px;
+      }
+    }
+  }
+}
+//media querie
+@media screen and (max-width: 992px) {
+  .main_wrapper {
+    .main_form_wrapper {
+      width: 100%;
+      padding: 0px 15.7px 0px 15.7px;
+    }
+    .images_wrapper {
+      display: none;
+    }
+  }
+}
+//media querie

@@ -1,0 +1,37 @@
+.main_wrapper {
+  .main_content_wrapper {
+    display: flex;
+    .sideNav {
+      z-index: 5;
+    }
+    .main_content {
+      width: calc(100% - 283px);
+      display: flex;
+      margin: 0 auto;
+    }
+    .main_content_width_admin_dashboard {
+      width: 100% !important;
+    }
+  }
+}
+.hideLayout {
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  .main_wrapper {
+    .main_content_wrapper {
+      .main_content {
+        width: 100%;
+      }
+      .sideNav {
+        display: none;
+      }
+      .showSideNav {
+        display: block !important;
+      }
+      .hideSideNav {
+        display: none !important;
+      }
+    }
+  }
+}

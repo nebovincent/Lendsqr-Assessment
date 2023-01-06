@@ -1,0 +1,54 @@
+.main_wrapper {
+  padding: 30px;
+  // width: calc(100vw - 30px);
+  .child_element {
+    border-bottom: 1px solid rgba(33, 63, 125, 0.1);
+    padding: 30px 0px 30px 0px;
+
+    .desc {
+      font-family: "Work Sans";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #213f7d;
+    }
+    .data_wrapper {
+      flex-wrap: wrap;
+      display: flex;
+      gap: 50px;
+      .singleData {
+        .data_desc {
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 14px;
+          text-transform: uppercase;
+          color: #545f7d;
+        }
+        .data {
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 19px;
+          color: #545f7d;
+        }
+      }
+    }
+  }
+  .child_element::after {
+  }
+  .personal_info_wrapper {
+  }
+  .education_and_employment_wrapper {
+  }
+  .socials_wrapper {
+  }
+  .guarantor_wrapper {
+  }
+  .foot_personal_info_wrapper {
+    border: none !important;
+  }
+}

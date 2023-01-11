@@ -14,13 +14,12 @@ function Layout({ children }: Props) {
   const genCtx = useContext(GeneralContext);
   const router = useLocation();
 
-
-  useEffect(() => {
-    if (router.pathname === "/") {
-      setLayout(false);
-      setOnloginPage(true);
-    }
-  }, [router.pathname]);
+  // useEffect(() => {
+  //   if (router.pathname === "/") {
+  //     setLayout(false);
+  //     setOnloginPage(true);
+  //   }
+  // }, [router.pathname]);
 
   return (
     <div className={`${classes.main_wrapper} `}>
